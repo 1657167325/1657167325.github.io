@@ -18,7 +18,7 @@
     <style>
         /*私有部分*/
         .mid_flex{
-            display: flex;
+            display:-moz-box;display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex
             align-items: center;
             justify-content: space-around;
         }
@@ -33,6 +33,11 @@
         .mid-small-box{
             justify-content: center;
             flex-direction: column;
+            
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            
         }
         .mid-span{
             padding-top: 2px;
