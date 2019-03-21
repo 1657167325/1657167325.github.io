@@ -16,11 +16,21 @@
     <script src="./首页_files/layer.js.下载"></script><link rel="stylesheet" href="./首页_files/layer.css" id="layuicss-layer">
     <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1275002585' style='display:none' %3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1275002585%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></head><body><span id="cnzz_stat_icon_1275002585" style="display:none"><a href="https://www.cnzz.com/stat/website.php?web_id=1275002585" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./首页_files/pic1.gif"></a></span><script src="./首页_files/z_stat.php" type="text/javascript"></script><script src="./首页_files/core.php" charset="utf-8" type="text/javascript"></script>
     <style>
+        .flex-vertical{
+        display:-moz-box;display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex;
+        }
+        
         /*私有部分*/
         .mid_flex{
-            display:-moz-box;display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex
+            display:-moz-box;display:-webkit-box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex;
             align-items: center;
             justify-content: space-around;
+            
+              -webkit-box-align: center;
+     -ms-flex-align: center;
+    align-items: center;
+            
+            
         }
         .mid_flex img{
             width: 35px;
@@ -38,11 +48,18 @@
             -ms-flex-pack: center;
             justify-content: center;
             
-            -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  -o-flex-direction: column; 
-  flex-direction:column;  
+            -webkit-box-align: center;
+     -ms-flex-align: center;
+    align-items: center;
+            
+           
+            
+            -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -moz-box-orient:vertical;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
             
         }
         .mid-span{
